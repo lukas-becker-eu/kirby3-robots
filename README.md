@@ -1,5 +1,8 @@
-# Kirby 3 Plugin Starterkit
+# Kirby 3 robots
 
-1. Clone this repo with ```$ git clone https://github.com/wearecandyblue/kirby3-plugin.git <your-new-project-directory>```
-2. ```$ git remote set-url origin <your-new-git-repo-url>```
-3. ```$ git submodule add https://github.com/wearecandyblue/kirby3-gtm.git site/plugins/gtm```
+```$ git submodule add https://github.com/wearecandyblue/kirby3-robots.git site/plugins/robots```
+
+```
+'allow' => '/',
+'sitemap' => 'sitemap.txt'
+```
