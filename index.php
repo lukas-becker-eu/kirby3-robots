@@ -23,7 +23,7 @@ Kirby::plugin('wearecandyblue/robots', [
         }
         $data = urldecode(http_build_query($data, ':', PHP_EOL));
         $data = str_replace('=', ':', $data);
-        return new Response($data), 'text/plain');
+        return new Response($data, 'text/plain');
       }
     ]
   ]
